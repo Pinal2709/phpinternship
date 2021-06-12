@@ -1,0 +1,111 @@
+/*Start Global Style*/
+*{
+
+	box-sizing: border-box;
+	margin : 0;
+	padding: 0;
+}
+body
+{
+	background-color: #e9ebee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150vh;
+	font-family: sans-serif;
+}
+.container
+{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	height: 100%;
+}
+.registration
+{
+	float: left;
+	background-color: #fafafa;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+	padding-top: 100px;
+}
+.registration h1{
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+input[type="email"] , input[type="password"],input[type="text"],input[type="date"],input[type="radio"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+#a1,#b1
+{
+	width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;	
+}
+.registration a:hover{color: #9526a9;font-weight: bold}
+.registration button{
+    width: 70%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: #9526a9;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.registration button:hover{
+    width:97%;
+    font-size: 22px;
+    border-radius: 5px;   
+}
+.registration p{
+    display: inline-block;
+    margin: 0px 10px 30px;
+}
+/*Start login Style*/
+.login{
+    float: right;
+    background-image: linear-gradient(135deg, #23212f 5%, #9526a9 95%);
+    height: 100%;
+    color:#fff;
+    border-radius:  0 10px 10px  0;
+    text-align: center;
+    padding: 100px 0;
+}
+.login h2{
+    margin: 30px 0;
+    font-size: 50px;
+    letter-spacing: 3px
+}
+.login p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+div i.fa-user-plus
+{
+	font-size: 80px;
+}
+
+.login button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition:0.2s all  ease-in-out;
+}
+.login button:hover{
+    color: #9526a9;
+    background-color: #fff;
+    cursor: pointer;
+}
